@@ -145,35 +145,69 @@ img {
 
 /* portfolio page */
 
-.work {
+.work1 {
   position: relative;
   float: left;
-  width: 274px;
+  width: 250px;
+  height: 250px;
   margin: 20px 0 25px;
   overflow: auto;
 }
 
-.work:nth-child(even) {
+.work1:nth-child(even) {
   margin-right: 40px;
 }
 
-.work img {
-  width: 400px;
+.work1 img {
+  width: 250px;
+  height: 250px;
   border: 0 none;
-  opacity: 0.8;
 }
 
-.work h3 {
+.work1 h3 {
   position: absolute;
   bottom: 20px;
-  width: 100%;
+  width: 96%;
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: #ffffff;
+  color: white;
   text-align: center;
-  background: #4aaaa5;
+  background: gray;
+  border-bottom: 0;
+}
+
+.work2 {
+  position: relative;
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work2:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work2 img {
+  width: 250px;
+  height: 250px;
+  border: 0 none;
+}
+
+.work2 h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 96%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: white;
+  text-align: center;
+  background: gray;
   border-bottom: 0;
 }
 
