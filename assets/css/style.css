@@ -15,9 +15,9 @@ body {
 
 /* general */
 
-.container {
+#main-container {
   width: 100%;
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   clear: both;
 }
@@ -26,7 +26,7 @@ h1,
 h2,
 h3,
 p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 p:last-child {
@@ -41,7 +41,7 @@ h3 {
 }
 
 h1 {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-size: 30px;
   color: #2D6662;
   line-height: 49px;
@@ -104,7 +104,7 @@ nav a:hover:not(.active) {
 }
 
 h3, h2 {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin-bottom: 15px;
   line-height: 22px;
   border-bottom: 2px solid #cccccc;
@@ -119,7 +119,6 @@ h3, h2 {
 .main-section {
   float: left;
   width: 100%;
-  max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
   background: #E8F7F4;
@@ -138,11 +137,6 @@ footer {
   height: 50px;
 }
 
-img {
-  float: left;
-  padding: 0 10px 0 0;
-}
-
 /* portfolio page */
 
 .work1 {
@@ -150,7 +144,7 @@ img {
   float: left;
   width: 250px;
   height: 250px;
-  margin: 20px 0 25px;
+  margin: 10px 10px 10px 10px;
   overflow: auto;
 }
 
@@ -166,8 +160,8 @@ img {
 
 .work1 h3 {
   position: absolute;
-  bottom: 20px;
-  width: 96%;
+  bottom: 10px;
+  width: 100%;
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
@@ -183,7 +177,7 @@ img {
   float: left;
   width: 250px;
   height: 250px;
-  margin: 20px 0 25px;
+  margin: 10px 40px 10px 10px;
   overflow: auto;
 }
 
@@ -199,8 +193,74 @@ img {
 
 .work2 h3 {
   position: absolute;
-  bottom: 20px;
-  width: 96%;
+  bottom: 10px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: white;
+  text-align: center;
+  background: gray;
+  border-bottom: 0;
+}
+
+.work3 {
+  position: relative;
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin: 10px 10px 10px 10px;
+  overflow: auto;
+}
+
+.work3:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work3 img {
+  width: 250px;
+  height: 250px;
+  border: 0 none;
+}
+
+.work3 h3 {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: white;
+  text-align: center;
+  background: gray;
+  border-bottom: 0;
+}
+
+.work4 {
+  position: relative;
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin: 10px 10px 10px 10px;
+  overflow: auto;
+}
+
+.work4:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work4 img {
+  width: 250px;
+  height: 250px;
+  border: 0 none;
+}
+
+.work4 h3 {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
@@ -222,7 +282,7 @@ img {
 /* contact page */
 
 #contact-form ul {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 #contact-form li {
